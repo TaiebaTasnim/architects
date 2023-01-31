@@ -197,6 +197,7 @@ font-size: 20px;
       width: 90%;
       height: 100%;
 }
+
 .facts{
       padding-top: 30px;
 }
@@ -230,7 +231,13 @@ font-size: 20px;
       width: 210px;
       height: 150px;
       text-align: center;
+      transition: all 0.3s;
       
+}
+.fact-blog:hover{
+      transform: translateY(-10px);
+      background-color:#FF900E;
+      color: white;
 }
 .fact-blog img{
       padding-top: 40px;
@@ -239,7 +246,7 @@ font-size: 20px;
 .fact-blog p {
       font-weight: 400;
       font-size: 16px;
-      color: #727272;
+      
       
       
 }
