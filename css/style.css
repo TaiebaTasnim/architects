@@ -229,17 +229,18 @@ font-size: 20px;
       border: 1px solid #FF900E;
       width: 210px;
       height: 150px;
+      text-align: center;
       
 }
 .fact-blog img{
       padding-top: 40px;
-      padding-left: 70px;
+     
 }
 .fact-blog p {
       font-weight: 400;
       font-size: 16px;
       color: #727272;
-      padding-left: 75px;
+      
       
 }
 .sponsor{
@@ -263,6 +264,40 @@ font-size: 20px;
       display: flex;
       justify-content: space-evenly;
       padding-bottom: 70px;
+}
+.architect h1{
+      text-align: center;
+      padding-bottom: 30px;
+}
+.architects{
+      display: flex;
+      justify-content: space-around;
+      column-gap: 10px;
+      overflow: hidden;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 70px;
+}
+.architect-blog{
+      border: 2px solid #FF900E;
+      border-radius: 8px;
+      text-align: center;
+     
+      
+}
+.architect-description{
+      font-weight: 400;
+      font-size: 15px;
+      color: #727272; 
+}
+.architect-title{
+      font-weight: 500;
+      font-size: 30px;     
+}
+.architect-blog img{
+      width: 50%;
+      height: 60%;
+      
 }
 
 .footer{
