@@ -320,5 +320,58 @@ font-size: 20px;
       text-align: center;
       padding-top: 20px;
 }
+@media screen and (max-width:576px) {
+      .header{
+            overflow: hidden;
+      }
+      .pages{
+            flex-direction: column;
+      }
+      .features{
+            flex-direction: column;
+      }
+      .feature-imges{
+            grid-template-columns: repeat(1,2fr);
+            justify-items: center;
+            padding-left: 0px;
+            
+           
+      }
+      .blog_and_img{
+            flex-direction: column;
+      }
+      .fact-blogs{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 10px;
+      }
+      .sponsors{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+
+      }
+      .sponsors img{
+            width: 50%;
+      }
+      .architects{
+            flex-direction: column;
+            row-gap: 10px;
+      }
+      .architect-blog img{
+            width: 250px;
+            height: 80%;
+            
+      }
+      .footer p{
+            font-size: 24px;
+      }
+      .footer{
+            padding-left: 50px;
+            padding-right: 50px;
+      }
+}
 
 
